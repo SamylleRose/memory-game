@@ -1,0 +1,6 @@
+.l-container {
+  padding: 1.5625rem;
+  background: #f8f8f8;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.625rem 1.875rem rgb(0, 0, 0, 0.1);
+}
