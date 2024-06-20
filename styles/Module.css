@@ -74,33 +74,33 @@ p {
 
 .details {
   width: 100%;
-  margin-top: 15px;
-  padding: 10px 20px;
+  margin-top: 0.9375rem;
+  padding: 0.625rem 1.25rem;
   background: #fff;
   border-radius: 7px;
-  height: calc(100% / 4 - 30px);
+  height: calc(100% / 0.25rem - 1.875rem);
   justify-content: space-between;
 }
 
 .details p {
-  font-size: 18px;
-  height: 17px;
-  padding-right: 18px;
-  border-right: 1px solid #ccc;
+  font-size: 1.125rem;
+  height: 1.0625rem;
+  padding-right: 1.125rem;
+  border-right: 0.0625rem solid #ccc;
 }
 
 .details p span {
-  margin-left: 8px;
+  margin-left: 0.5rem;
 }
 
 .details button {
   cursor: pointer;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #673ab7;
-  border-radius: 4px;
-  padding: 4px 11px;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.06875rem;
   background: #fff;
-  border: 2px solid #673ab7;
+  border: 0.125rem solid #673ab7;
   transition: 0.3s ease;
 }
 
@@ -121,40 +121,40 @@ p {
   }
 
   .card .front-view img {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
   .card .back-view img {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 52.1875rem) {
   .cards {
     height: 300px;
     width: 300px;
   }
 
   .card .front-view img {
-    font-size: 30px;
+    font-size: 2.1875rem;
   }
   .card .back-view img {
-    font-size: 30px;
+    font-size: 2.1875rem;
   }
 
   .details {
-    margin-top: 10px;
-    padding: 15px 15px;
+    margin-top: 0.625rem;
+    padding: 0.9375rem 0.9375rem;
     height: calc(100% / 4 - 20%);
   }
 
   .details p {
-    height: 15px;
-    font-size: 17px;
-    padding-right: 13px;
+    height: 0.9375rem;
+    font-size: 1.0625rem;
+    padding-right: 0.625rem;
   }
   .details button {
-    font-size: 13px;
-    padding: 5px 10px;
+    font-size: 0.8125rem;
+    padding: 0.3125rem 0.625rem;
     border: none;
     color: #fff;
     background: #673ab7;
